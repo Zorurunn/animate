@@ -1,0 +1,47 @@
+.box3{
+gap: 10px;}
+.bar{
+width: 20px;
+height: 3rem;
+background-color: white;
+animation: big 1s 0.1s linear;
+animation-iteration-count: infinite;
+}
+
+@keyframes big {
+    0% {
+        height: 3rem;
+    }
+
+    20% {
+       height: 6rem;
+    }
+
+    40% {
+        height: 3rem;
+    }
+}
+
+.bar:first-child{
+animation-delay: 0s;
+}
+
+.bar:nth-child(2){
+animation-delay: 0.1s;
+}
+
+.bar:nth-child(3) {
+    animation-delay: 0.2s;
+}
+
+.bar:nth-child(4) {
+    animation-delay: 0.3s;
+}
+
+.bar:nth-child(5) {
+    animation-delay: 0.4s;
+}
+
+.bar:nth-child(6) {
+    animation-delay: 0.5s;
+}
